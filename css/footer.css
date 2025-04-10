@@ -23,3 +23,25 @@
 .footer-content a:hover {
     text-decoration: underline;
 }
+/* Style links within the footer */
+#footer-placeholder a {
+    color: #FFBF00; /* Amber color */
+    text-decoration: none; /* Remove underlines by default (optional) */
+}
+
+#footer-placeholder a:hover {
+    color: #FFD700; /* Slightly brighter amber or gold on hover */
+    text-decoration: underline; /* Add underline on hover for usability */
+}
+
+/* If your links are within a specific class inside the footer */
+/* You might need to use this instead or in addition */
+.footer-content a {
+    color: #FFBF00; /* Amber color */
+    text-decoration: none; /* Remove underlines by default (optional) */
+}
+
+.footer-content a:hover {
+    color: #FFD700; /* Slightly brighter amber or gold on hover */
+    text-decoration: underline; /* Add underline on hover for usability */
+}
