@@ -20,6 +20,11 @@
     background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent background */
     padding: 15px;
     border: 1px solid #00cc00; /* Darker green border */
+
+    /* Add background image */
+    background-image: url('/assets/images/general/green_background.jpg');
+    background-repeat: repeat; /* Or no-repeat, space, round */
+    background-size: auto;    /* Or cover, contain, pixel/percentage values */
 }
 
 /* Basic styling for the sidebars */
@@ -28,6 +33,11 @@
     background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent background */
     padding: 10px;
     border: 1px solid #00cc00; /* Darker green border */
+
+    /* Add background image */
+    background-image: url('/assets/images/general/green_background.jpg');
+    background-repeat: repeat; /* Or no-repeat, space, round */
+    background-size: auto;    /* Or cover, contain, pixel/percentage values */
 }
 
 
@@ -48,3 +58,31 @@
     padding: 15px;
     margin-bottom: 15px; /* Spacing between main boxes */
 }
+
+/* Center content within sidebar boxes */
+.sidebar-box {
+    text-align: center; /* Center inline and inline-block elements (like text, images) */
+}
+
+.sidebar-box iframe {
+    display: block; /* Make iframe a block-level element to be centered */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; /* Make it responsive within the sidebar */
+}
+
+/* Optional: Center text within paragraphs and other block elements */
+.sidebar-box p,
+.sidebar-box ul,
+.sidebar-box ol,
+.sidebar-box h1,
+.sidebar-box h2,
+.sidebar-box h3,
+.sidebar-box h4,
+.sidebar-box h5,
+.sidebar-box h6 {
+    text-align: center;
+}
+
+/* Images are already centered with the max-width and auto margins */
+/* We don't need to restyle img here unless you have specific needs */

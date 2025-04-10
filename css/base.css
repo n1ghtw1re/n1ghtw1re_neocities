@@ -1,12 +1,16 @@
 body {
-    font-family: 'Press Start 2P', cursive; /* Retro pixel font with a fallback */
-    margin: 0;
-    padding: 0;
-    background-color: #000; /* Black background for the Matrix look */
-    color: #00ff00; /* Bright green text */
-    line-height: 1.4; /* Improve readability */
-    /* text-shadow: 0 0 5px #00ff00; /* Removed the green text glow */
-    overflow-x: hidden; /* Prevent horizontal scrollbar */
+    font-family: 'Press Start 2P', cursive;
+    background-color: #000; /* Keep your base background color as a fallback */
+    color: #00ff00;
+    line-height: 1.4;
+    margin: 0; /* Reset default body margin */
+    padding: 0; /* Reset default body padding */
+    box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
+
+    /* Add background image */
+    background-image: url('/assets/images/general/green_background.jpg');
+    background-repeat: repeat; /* Or no-repeat, space, round depending on your preference */
+    background-size: auto;    /* Or cover, contain, or specific pixel/percentage values */
 }
 
 html {
