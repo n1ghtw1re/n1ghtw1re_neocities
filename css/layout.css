@@ -1,0 +1,50 @@
+/* Grid container for the three-column layout */
+.grid-container {
+    display: grid;
+    /* Remove the max-width to allow it to take full width */
+    /* max-width: 960px; */
+    width: 100%; /* Ensure it takes 100% of the viewport width */
+    margin: 0; /* Remove auto margins that were centering it */
+    padding: 15px; /* Keep some padding around the content */
+    grid-template-columns: minmax(150px, 20%) 1fr minmax(150px, 20%); /* Adjust sidebar widths as percentages or fixed */
+    gap: 15px;
+    background-color: rgba(0, 0, 0, 0.8); /* Slightly transparent background for the container */
+    border: 2px solid #00ff00; /* Green border */
+    box-shadow: 0 0 10px #00ff00; /* Initial subtle glow */
+    box-sizing: border-box; /* Ensure padding and border are included in the 100% width */
+    min-height: 100vh; /* Optional: Make the container at least the height of the viewport */
+}
+
+/* Style for the main content area */
+.main-content {
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent background */
+    padding: 15px;
+    border: 1px solid #00cc00; /* Darker green border */
+}
+
+/* Basic styling for the sidebars */
+#left-sidebar-placeholder,
+#right-sidebar-placeholder {
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent background */
+    padding: 10px;
+    border: 1px solid #00cc00; /* Darker green border */
+}
+
+
+/* ... existing layout styles ... */
+
+/* Styles for the inner boxes within sidebars */
+.sidebar-box {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background for the boxes */
+    border: 1px solid #00cc00; /* Green border for the boxes */
+    padding: 10px;
+    margin-bottom: 10px; /* Spacing between the boxes */
+}
+
+/* Styles for the inner boxes within the main content */
+.main-content-box {
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly lighter background for main boxes */
+    border: 1px dashed #00cc00; /* Dashed green border for main boxes */
+    padding: 15px;
+    margin-bottom: 15px; /* Spacing between main boxes */
+}

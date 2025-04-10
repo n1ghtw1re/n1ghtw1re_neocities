@@ -1,0 +1,17 @@
+/* Basic styling for links within components */
+.sidebar-content a {
+    color: #00cc00;
+}
+
+.sidebar-content a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the footer content */
+.footer-content a {
+    color: #00cc00;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}

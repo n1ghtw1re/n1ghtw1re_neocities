@@ -1,0 +1,48 @@
+/* Responsive design using media queries */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Single column layout on smaller screens */
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    #left-sidebar-placeholder,
+    #right-sidebar-placeholder {
+        margin-top: 15px;
+        border: 1px solid #00cc00;
+        padding: 10px;
+    }
+}
+
+/* Hide sidebars on screens smaller than 768px (typical tablet/mobile) */
+@media (max-width: 768px) {
+    #left-sidebar-placeholder {
+        display: none;
+    }
+
+    #right-sidebar-placeholder {
+        display: none;
+    }
+
+    /* Adjust grid layout to be single column for main content */
+    .grid-container {
+        grid-template-columns: 1fr; /* Main content takes full width */
+    }
+
+    /* Optional: Style the main content to take full width */
+    .main-content {
+        width: 100%; /* Ensure main content uses full width */
+    }
+}
+
+/* Optional: Add "Best Viewed" message for smaller screens */
+@media (max-width: 768px) {
+    .mobile-view-message {
+        text-align: center;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #ffff00;
+        border: 1px dashed #ffff00;
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,30 @@
+/* Basic styling for the navigation area */
+#nav-placeholder {
+    background-color: rgba(0, 0, 0, 0.9); /* Darker background for nav */
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #00ff00; /* Green separator */
+    margin-bottom: 15px;
+}
+
+#nav-placeholder nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Center the list */
+}
+
+#nav-placeholder nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#nav-placeholder nav a {
+    color: #00ff00;
+    text-decoration: none;
+    text-shadow: 0 0 3px #00ff00;
+}
+
+#nav-placeholder nav a:hover {
+    text-decoration: underline;
+}
