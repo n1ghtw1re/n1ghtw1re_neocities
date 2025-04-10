@@ -6,10 +6,14 @@
     padding: 10px;
     border-top: 1px solid #00ff00; /* Green separator */
     margin-top: 15px;
-    /* position: sticky; <--- REMOVE THIS LINE */
-    bottom: 0; /* This will now just anchor it to the bottom of the normal flow */
+    bottom: 0;
     width: 100%;
-    z-index: 10; /* Ensure it's above other elements if needed */
+    z-index: 10;
+
+    /* Add background image */
+    background-image: url('/assets/images/general/green_background.jpg');
+    background-repeat: repeat; /* Or no-repeat, space, round */
+    background-size: auto;    /* Or cover, contain, pixel/percentage values */
 }
 
 .footer-content p {
@@ -17,31 +21,11 @@
 }
 
 .footer-content a {
-    color: #00cc00;
+    color: #FFBF00; /* Amber color for links */
+    text-decoration: none;
 }
 
 .footer-content a:hover {
+    color: #FFD700; /* Brighter amber on hover */
     text-decoration: underline;
-}
-/* Style links within the footer */
-#footer-placeholder a {
-    color: #FFBF00; /* Amber color */
-    text-decoration: none; /* Remove underlines by default (optional) */
-}
-
-#footer-placeholder a:hover {
-    color: #FFD700; /* Slightly brighter amber or gold on hover */
-    text-decoration: underline; /* Add underline on hover for usability */
-}
-
-/* If your links are within a specific class inside the footer */
-/* You might need to use this instead or in addition */
-.footer-content a {
-    color: #FFBF00; /* Amber color */
-    text-decoration: none; /* Remove underlines by default (optional) */
-}
-
-.footer-content a:hover {
-    color: #FFD700; /* Slightly brighter amber or gold on hover */
-    text-decoration: underline; /* Add underline on hover for usability */
 }
