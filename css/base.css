@@ -48,3 +48,29 @@ a:hover {
     color: #FFD700; /* Slightly brighter amber or gold on hover */
     text-decoration: underline; /* Add underline on hover for better usability */
 }
+
+/* Style the container for the image and text */
+.image-text-container {
+    display: flex; /* Enable Flexbox */
+    flex-direction: row; /* Arrange items horizontally */
+    align-items: flex-start; /* Align items to the top (default), or center, or bottom */
+    gap: 20px; /* Add some space between the image and text (adjust as needed) */
+    margin-bottom: 15px; /* Optional: Add margin below this image-text block */
+}
+
+/* Style the image */
+.image-text-container img {
+    display: block; /* Remove default inline spacing */
+    max-width: 300px; /* Set a maximum width for the image (adjust as needed) */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Style the text block */
+.image-text-container .text-block {
+    flex-grow: 1; /* Allow the text block to take up remaining space */
+}
+
+/* Optional: Style paragraphs within the text block */
+.image-text-container .text-block p {
+    margin-bottom: 10px; /* Add spacing between paragraphs */
+}
