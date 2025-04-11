@@ -29,3 +29,19 @@
     color: #FFD700; /* Brighter amber on hover */
     text-decoration: underline;
 }
+
+/* Style for the individual social media text links */
+.social-links-text a {
+    color: #FFBF00; /* Amber text color for the links */
+    text-decoration: none; /* Remove underlines */
+    border: 1px solid #00ff00; /* Green border */
+    padding: 5px 10px; /* Add padding around the text */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+/* Optional: Style for the links on hover */
+.social-links-text a:hover {
+    color: #FFD700; /* Slightly brighter amber or gold on hover */
+    border-color: #00cc00; /* Darker green border on hover */
+    text-decoration: underline; /* Add underline on hover for feedback */
+}
