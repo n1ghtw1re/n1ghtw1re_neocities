@@ -74,3 +74,32 @@ a:hover {
 .image-text-container .text-block p {
     margin-bottom: 10px; /* Add spacing between paragraphs */
 }
+
+body {
+    /* Existing body styles */
+    font-family: 'Fira Code', monospace;
+    background-color: #000;
+    color: #00ff00;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('/assets/images/general/green_background.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+
+    /* Custom cursor */
+    cursor: url('/assets/cursors/precision_select.cur'), auto;
+}
+
+a {
+    color: #FFBF00; /* Amber color for links */
+    text-decoration: none;
+    cursor: url('/assets/cursors/link_select.cur'), pointer; /* Custom cursor for links */
+}
+
+a:hover {
+    color: #FFD700; /* Brighter amber on hover */
+    text-decoration: underline;
+    cursor: url('/assets/cursors/link_grab.cur'), grabbing; /* Optional: Different cursor on active hover/grabbing */
+}
