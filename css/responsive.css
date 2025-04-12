@@ -56,3 +56,19 @@
     margin-right: auto; /* Center the iframe horizontally */
     border: 0;        /* Optional: Remove the default iframe border */
 }
+
+@media (max-width: 768px) { /* Adjust this breakpoint as needed */
+    .image-text-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: stretch; /* Make items take full width */
+    }
+
+    .image-text-container img {
+        max-width: 100%; /* Image takes full width */
+        margin-bottom: 10px; /* Space below image */
+    }
+
+    .image-text-container .text-block {
+        /* Text block will naturally take full width */
+    }
+}
