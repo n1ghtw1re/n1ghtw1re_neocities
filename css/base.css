@@ -103,3 +103,83 @@ a:hover {
     text-decoration: underline;
     cursor: url('/assets/cursors/link_grab.cur'), grabbing; /* Optional: Different cursor on active hover/grabbing */
 }
+
+.image-gallery {
+    display: flex; /* Enable Flexbox */
+    flex-direction: row; /* Arrange images in a row */
+    flex-wrap: wrap; /* Allow images to wrap to the next line if they don't fit */
+    justify-content: space-between; /* Distribute space evenly between images */
+    gap: 10px; /* Add some space between the images */
+}
+
+.image-gallery img {
+    max-width: calc(33.33% - 10px); /* Each image takes roughly one-third of the container width, minus the gap */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevent extra spacing below inline images */
+}
+
+/* Optional: Adjust image width for smaller screens using media queries */
+@media (max-width: 768px) {
+    .image-gallery img {
+        max-width: calc(50% - 10px); /* Two images per row on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .image-gallery img {
+        max-width: 100%; /* One image per row on small screens */
+    }
+}
+.image-gallery img {
+    display: block;
+    max-width: calc(33.33% - 10px);
+    height: auto;
+    border: 2px solid #FFBF00; /* Amber border */
+    padding: 8px; /* Add some padding around the image inside the border */
+    margin-bottom: 10px; /* Add some margin below each image */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for the "float" effect */
+}
+
+.image-gallery img:hover {
+    transform: translateY(-5px); /* Move the image up slightly on hover for the "float" effect */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Optional: Add a subtle shadow on hover */
+}
+
+/* Media queries for responsiveness remain the same */
+@media (max-width: 768px) {
+    .image-gallery img {
+        max-width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .image-gallery img {
+        max-width: 100%;
+    }
+}.image-gallery img {
+    display: block;
+    max-width: calc(33.33% - 10px);
+    height: auto;
+    border: 2px solid #FFBF00; /* Amber border */
+    padding: 8px; /* Add some padding around the image inside the border */
+    margin-bottom: 10px; /* Add some margin below each image */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for the "float" effect */
+}
+
+.image-gallery img:hover {
+    transform: translateY(-5px); /* Move the image up slightly on hover for the "float" effect */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Optional: Add a subtle shadow on hover */
+}
+
+/* Media queries for responsiveness remain the same */
+@media (max-width: 768px) {
+    .image-gallery img {
+        max-width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .image-gallery img {
+        max-width: 100%;
+    }
+}
