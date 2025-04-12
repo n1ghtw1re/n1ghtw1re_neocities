@@ -41,7 +41,7 @@ you know what to do.
 
 - 🌐 [Live Site](https://n1ghtw1re.neocities.org)
 - 🧵 [Zine Archive]([https://n1ghtw1re.neocities.org/zine](https://n1ghtw1re.neocities.org/pages/ezine))
-- 🔐 [[N1ghtw1re Studios](https://n1ghtw1re-studios.lovable.app/) 
+- 🔐 [N1ghtw1re Studios](https://n1ghtw1re-studios.lovable.app/) 
 - 👁 *404 Not Found? Or is it?*
 
 ---
