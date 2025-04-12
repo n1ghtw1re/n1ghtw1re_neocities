@@ -46,3 +46,13 @@
         margin-bottom: 15px;
     }
 }
+
+.main-content-box iframe {
+    max-width: 100%; /* Make the iframe's width responsive */
+    width: 100%;     /* Ensure it takes up the full width of its container */
+    height: 800;    /* Maintain aspect ratio (if you want to control height based on width) */
+    display: block;   /* Remove any potential inline spacing */
+    margin-left: auto;
+    margin-right: auto; /* Center the iframe horizontally */
+    border: 0;        /* Optional: Remove the default iframe border */
+}
