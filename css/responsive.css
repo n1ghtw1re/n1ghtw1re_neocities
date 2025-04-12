@@ -57,18 +57,19 @@
     border: 0;        /* Optional: Remove the default iframe border */
 }
 
-@media (max-width: 768px) { /* Adjust this breakpoint as needed */
+/* Make image-text-container stack on smaller screens */
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
     .image-text-container {
-        flex-direction: column; /* Stack items vertically */
-        align-items: stretch; /* Make items take full width */
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: stretch; /* Make items take full width of the container */
     }
 
     .image-text-container img {
-        max-width: 100%; /* Image takes full width */
-        margin-bottom: 10px; /* Space below image */
+        max-width: 100%; /* Make the image take full width */
+        margin-bottom: 10px; /* Add some space below the image */
     }
 
     .image-text-container .text-block {
-        /* Text block will naturally take full width */
+        /* Text block will naturally take full width when stacked */
     }
 }
