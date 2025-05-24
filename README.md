@@ -79,7 +79,10 @@ We code, educate, disrupt, organize, and imagine new futures. Join us—be the s
 ![N1ghtw1re Site Screenshot](assets/images/general/n1ghtw1re_screen_shot.jpg)
 
 ## Credits
-- Who built it, contributors, special thanks
+
+Built by **The N1ghtw1re Collective**.
+
+Special thanks to real-world hackers, hacktivists, protesters, and everyday people standing up for their rights—your courage and creativity inspire everything we do.
 
 ## License
 
@@ -88,11 +91,21 @@ This project is licensed under the MIT License. See the [LICENSE](css/LICENSE) f
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 ## Contact & Community
-- How to get in touch (email, Mastodon, etc.)
-- How to join/support (Patreon, etc.)
+
+- **Email:** [n1ghtw1re@proton.me](mailto:n1ghtw1re@proton.me)
+- **Mastodon:** [@n1ghtw1re@defcon.social](https://defcon.social/@n1ghtw1re)
+- **Bluesky:** [n1ghtw1re.neocities.org](https://bsky.app/profile/n1ghtw1re.neocities.org)
+- **Support us:**
+  - [Gumroad](https://n1ghtw1re.gumroad.com/)
+  - [Patreon](https://www.patreon.com/c/N1GHTW1RE/posts)
 
 ## Easter Eggs & Fun
-- Hidden features, retro touches, or “secrets” for explorers
+
+**The Hunt is on.**
+
+The Collective—and every site in its network—is laced with hidden messages, cryptic links, retro nods, and digital secrets. Some are easy to spot, others are buried deep in the code, waiting for the curious and the clever. From classic web tricks to ARG-style puzzles, every page is an invitation to explore, decode, and discover. 
+
+Can you find them all? Welcome to the game.
 
 ---
 
