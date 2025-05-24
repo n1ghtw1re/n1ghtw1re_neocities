@@ -62,8 +62,17 @@
 - Please keep the cyberpunk, privacy-first, and creative spirit alive!
 
 ## Philosophy & Inspiration
-- Why this site exists
-- Core values: privacy, autonomy, digital freedom, creative rebellion
+
+N1ghtw1re exists to resist the hijacking of reality by surveillance, control, and algorithmic manipulation. We are a collective of coders, artists, hackers, and dreamers building tools, sharing knowledge, and creating community for digital liberation. Our mission: reclaim autonomy, empower individuals, and build a freer, more creative internet from the shadows up.
+
+**Core Values:**
+- **Sovereignty:** You control your digital existence.
+- **Privacy:** Dignity and freedom require boundaries.
+- **Decentralization:** Power should be distributed, not monopolized.
+- **Transparency:** Code and systems must be open and inspectable.
+- **Accessibility:** Tools for resistance should be usable by everyone.
+
+We code, educate, disrupt, organize, and imagine new futures. Join us—be the signal, not the noise.
 
 ## Screenshots/Previews
 
